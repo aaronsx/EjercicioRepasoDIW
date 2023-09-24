@@ -13,15 +13,27 @@ namespace EjercicioRepaso.Servicios
     {
        
 
-        public void GestionarFichero(string ruta, List<Empleados> bd)
+        public void GestionarFichero(string ruta, List<Empleados> bd,int idEmpleado)
         {
-            
+            //Guarda en un txt la informacion elegida.
             try
             {
-                StreamWriter sw = new StreamWriter(ruta);
-                foreach (Empleados item in bd) 
-                    sw.WriteLine(item.ToString());
-    
+                StreamWriter sw = new StreamWriter(ruta,true);
+                //Recorre toda la lista.
+                foreach (Empleados emple in bd)
+                {
+                    //If segun la id que te pidan.
+                    if (idEmpleado == emple.IdEmpleado)
+                    {
+                        sw.WriteLine(emple.ToString());
+                        break;
+                    }
+                    else if(idEmpleado==0) 
+                    {
+                        sw.WriteLine(emple.ToString());
+                    }
+
+                }
                 sw.Close();
 
             }
@@ -33,6 +45,7 @@ namespace EjercicioRepaso.Servicios
 
         public void PreparacionDeFichero(string ruta)
         {
+            //Pregunta si existe la ruta y si no existe la crea
             if (!File.Exists(ruta))
                 EscirbirEncabezado(ruta);
     
@@ -40,19 +53,26 @@ namespace EjercicioRepaso.Servicios
             {
                 int contador = 0;
                 StreamReader sr = new StreamReader(ruta);
-                
-                while (!sr.EndOfStream)   
-                    contador++; 
+                //Un contador para ver si esta escrito o no 
+                while (!sr.EndOfStream)
+                {
+                    string linea = sr.ReadLine(); // Lee una línea del archivo y avanza al siguiente
+                    contador++;
+                }
+                   
                 
                 if (contador == 0 || contador == 1)
                     EscirbirEncabezado(ruta);
+
+                sr.Close();
             }
+
         }
         
 
         public void EscirbirEncabezado(string ruta)
         {
-            
+            //try para escrribir el encabezado
             try
             {
                 StreamWriter sw = new StreamWriter(ruta);

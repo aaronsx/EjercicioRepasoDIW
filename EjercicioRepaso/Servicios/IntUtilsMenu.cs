@@ -15,11 +15,11 @@ namespace EjercicioRepaso
         */
         void Menu();
         /**
-        * Método para mostrar un menu al usuario de como quieres que se guarde. 
+        * Método para mostrar un menu al usuario de como quieres que se modifique . 
         * @param 
         * @return 
         */
-        void MenuGuardar();
+        void MenuEditar();
 
     }
 }

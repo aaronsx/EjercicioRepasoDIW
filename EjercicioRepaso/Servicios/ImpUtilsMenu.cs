@@ -26,17 +26,26 @@ namespace EjercicioRepaso.Servicios
             Console.WriteLine("\t\t║           0) Salir                 ║");
             Console.WriteLine("\t\t╚════════════════════════════════════╝");
         }
-        public void MenuGuardar()
+        public void MenuEditar()
         {
             Console.Clear();
             Console.WriteLine("\n\n\t\t╔════════════════════════════════════╗");
             Console.WriteLine("\t\t║         Guardar en fichero         ║");
             Console.WriteLine("\t\t╠════════════════════════════════════╣");
             Console.WriteLine("\t\t║                                    ║");
-            Console.WriteLine("\t\t║   1) Guardar un empleado           ║");
+            Console.WriteLine("\t\t║   1) Nombre                        ║");
             Console.WriteLine("\t\t║                                    ║");
-            Console.WriteLine("\t\t║   2) Guardar todo los empleado     ║");
+            Console.WriteLine("\t\t║   2) Apellido                      ║");
             Console.WriteLine("\t\t║                                    ║");
+            Console.WriteLine("\t\t║   3) Dni                           ║");
+            Console.WriteLine("\t\t║                                    ║");
+            Console.WriteLine("\t\t║   4) Fecha de nacimiento           ║");
+            Console.WriteLine("\t\t║                                    ║");
+            Console.WriteLine("\t\t║   5) Titulacion mas alta           ║");
+            Console.WriteLine("\t\t║                                    ║");
+            Console.WriteLine("\t\t║   6) Numero de la seguirdad social ║");
+            Console.WriteLine("\t\t║                                    ║");
+            Console.WriteLine("\t\t║   7) Numero de cuenta              ║");
             Console.WriteLine("\t\t║____________________________________║");
             Console.WriteLine("\t\t║                                    ║");
             Console.WriteLine("\t\t║           0) Salir                 ║");

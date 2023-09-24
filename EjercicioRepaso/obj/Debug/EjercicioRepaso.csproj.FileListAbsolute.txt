@@ -1,0 +1,7 @@
+C:\Users\Sturt\OneDrive\Escritorio\DAW 2\DIW\1Eva\Actividades\EjercicioRepasoDIW\EjercicioRepaso\bin\Debug\EjercicioRepaso.exe.config
+C:\Users\Sturt\OneDrive\Escritorio\DAW 2\DIW\1Eva\Actividades\EjercicioRepasoDIW\EjercicioRepaso\bin\Debug\EjercicioRepaso.exe
+C:\Users\Sturt\OneDrive\Escritorio\DAW 2\DIW\1Eva\Actividades\EjercicioRepasoDIW\EjercicioRepaso\bin\Debug\EjercicioRepaso.pdb
+C:\Users\Sturt\OneDrive\Escritorio\DAW 2\DIW\1Eva\Actividades\EjercicioRepasoDIW\EjercicioRepaso\obj\Debug\EjercicioRepaso.csproj.AssemblyReference.cache
+C:\Users\Sturt\OneDrive\Escritorio\DAW 2\DIW\1Eva\Actividades\EjercicioRepasoDIW\EjercicioRepaso\obj\Debug\EjercicioRepaso.csproj.CoreCompileInputs.cache
+C:\Users\Sturt\OneDrive\Escritorio\DAW 2\DIW\1Eva\Actividades\EjercicioRepasoDIW\EjercicioRepaso\obj\Debug\EjercicioRepaso.exe
+C:\Users\Sturt\OneDrive\Escritorio\DAW 2\DIW\1Eva\Actividades\EjercicioRepasoDIW\EjercicioRepaso\obj\Debug\EjercicioRepaso.pdb

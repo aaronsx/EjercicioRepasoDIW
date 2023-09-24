@@ -16,10 +16,10 @@ namespace EjercicioRepaso
     {
         /**
 	     * Método Escribir en fichero
-	     * @param Un string (ruta del archivo) y una lista.
+	     * @param Un string (ruta del archivo), una lista y un numero.
 	     * 
 	     */
-        void GestionarFichero(string ruta, List<Empleados> bd);
+        void GestionarFichero(string ruta, List<Empleados> bd, int num);
 
 
         /**

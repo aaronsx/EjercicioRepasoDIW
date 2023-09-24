@@ -21,8 +21,8 @@ namespace EjercicioRepaso
         private string dni = "aaaaaa";
         private string fechaDeNacimiento = "aaaaaa";
         private string titulaciónMasAlta = "aaaaaa";
-        private string NuSeguriSocial = "aaaaaa";
-        private string NuCuenta = "aaaaaa";
+        private string nuSeguriSocial = "aaaaaa";
+        private string nuCuenta = "aaaaaa";
         //--------Getters Y Setters---------
         public int IdEmpleado { get => idEmpleado; set => idEmpleado = value; }
         public string Nombre { get => nombre; set => nombre = value; }
@@ -30,8 +30,8 @@ namespace EjercicioRepaso
         public string Dni { get => dni; set => dni = value; }
         public string FechaDeNacimiento { get => fechaDeNacimiento; set => fechaDeNacimiento = value; }
         public string TitulaciónMasAlta { get => titulaciónMasAlta; set => titulaciónMasAlta = value; }
-        public string NuSeguriSocial1 { get => NuSeguriSocial; set => NuSeguriSocial = value; }
-        public string NuCuenta1 { get => NuCuenta; set => NuCuenta = value; }
+        public string NuSeguriSocial { get => nuSeguriSocial; set => nuSeguriSocial = value; }
+        public string NuCuenta { get => nuCuenta; set => nuCuenta = value; }
 
          
         public String ToString()
